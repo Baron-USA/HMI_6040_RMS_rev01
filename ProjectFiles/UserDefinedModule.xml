@@ -19,17 +19,112 @@
     <TypeMappings>
         <TypeMapping>
             <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="9fa4120b39f3d7f343868a6e48164401" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
                 <NodeId namespaceUri="HMI_6040_RMS" guid="01a7e8933afd7c95fe894b0859308138" />
             </TargetType>
         </TypeMapping>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HMI_6040_RMS" guid="a7f84ad70b1faba37955f2e249f13bc2" />
+                <NodeId namespaceUri="HMI_6040_RMS" guid="156581f166d4e24f6712fd8855af9142" />
             </TargetType>
         </TypeMapping>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HMI_6040_RMS" guid="343e9a553a1648e3de95b91f6d877b43" />
+                <NodeId namespaceUri="HMI_6040_RMS" guid="b9757476238dfee23a0ab701ad0c5771" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="07b10933e4ee4d4cbf84518e190ea9be" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="54839ad7f435d8751d41a734956d8d23" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="bb825991a638d6cfdf0ee9e4f07b2c7c" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="da67bed68762015b801456ca4517b6ec" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="d17d8ab3d7f8047c35a02cbe0b7248c6" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="59d1f6854f2e82d3067ea379fe33563f" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="4638c4154eea489e5c4d884234fbd3fc" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="ce091de436add3ac9cb2590b4dc0ea79" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="dc2c41b238ed9ce9aa4f98d28d04b528" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="f20bbb545dc0975af8b6d33674cfeabd" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="35181ea33e4ec05528d409e6c372160c" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="c23e02aa9e8e3b8c6db2b78c57c0b790" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="a1bc9eb5f4d026de084841c01be207e7" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="63c1c9c04fb3a49f9cbb756fc27225b9" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="7301b534d4acd5ba3cea1966ec162d10" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="cacd26ee2a37ef2673a3424aabee34e7" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="dfd608856ac9169edc3dd3847ce7f7bc" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="914c94f08a5233ffd10e018be1ba18af" />
             </TargetType>
         </TypeMapping>
         <TypeMapping>
@@ -49,7 +144,22 @@
         </TypeMapping>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HMI_6040_RMS" guid="acc9a2306cba9cdf618ea080ea59996c" />
+                <NodeId namespaceUri="HMI_6040_RMS" guid="9e4bb617eb5b7717c5f9127b0d1e02d7" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="323ecbd80fe0dccc66307959b261f54a" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="9c834b30ae8545697472fc4baf681c32" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="a7f84ad70b1faba37955f2e249f13bc2" />
             </TargetType>
         </TypeMapping>
         <TypeMapping>
@@ -64,7 +174,32 @@
         </TypeMapping>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HMI_6040_RMS" guid="dfd608856ac9169edc3dd3847ce7f7bc" />
+                <NodeId namespaceUri="HMI_6040_RMS" guid="acc9a2306cba9cdf618ea080ea59996c" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="77122192dcccfaa39d1e78d7bd27e222" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="abf458903710ef4d21ae0b2522aba4ff" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="5c8b46c83f81724300956b1b05f17465" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="ff7fc7484ad87068fc54662acbf26202" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HMI_6040_RMS" guid="343e9a553a1648e3de95b91f6d877b43" />
             </TargetType>
         </TypeMapping>
         <TypeMapping>
@@ -84,11 +219,6 @@
         </TypeMapping>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HMI_6040_RMS" guid="d17d8ab3d7f8047c35a02cbe0b7248c6" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
                 <NodeId namespaceUri="HMI_6040_RMS" guid="9cf154c923572624320f16c16fa657a3" />
             </TargetType>
         </TypeMapping>
@@ -104,27 +234,7 @@
         </TypeMapping>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HMI_6040_RMS" guid="07b10933e4ee4d4cbf84518e190ea9be" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
                 <NodeId namespaceUri="HMI_6040_RMS" guid="e348b14dbc7035688714c7ced8a72128" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
-                <NodeId namespaceUri="HMI_6040_RMS" guid="77122192dcccfaa39d1e78d7bd27e222" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
-                <NodeId namespaceUri="HMI_6040_RMS" guid="dc2c41b238ed9ce9aa4f98d28d04b528" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
-                <NodeId namespaceUri="HMI_6040_RMS" guid="323ecbd80fe0dccc66307959b261f54a" />
             </TargetType>
         </TypeMapping>
     </TypeMappings>

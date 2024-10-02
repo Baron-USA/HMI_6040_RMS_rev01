@@ -1,7 +1,7 @@
 Project:
  Name: HMI_6040_RMS
- GUID: 4e94feac5295b9cc6b1b3f4d0161a60a
- ProjectNamespaceIndex: 24
+ GUID: eb0e55318c8f3672155bfbf378ed5dd1
+ ProjectNamespaceIndex: 22
  Description: ''
  Company: ''
  Copyright: ''
@@ -16,21 +16,21 @@ Project:
    Module: FTOptix.Core.Net
    Version: 1.2
   3:
-   Uri: 'urn:FTOptix:CoreBase'
-   Module: FTOptix.CoreBase
-   Version: 4.0
-  4:
-   Uri: 'urn:FTOptix:CoreBase:Net'
-   Module: FTOptix.CoreBase.Net
-   Version: 1.1
-  5:
    Uri: 'urn:FTOptix:UI'
    Module: FTOptix.UI
    Version: 12.4
-  6:
+  4:
    Uri: 'urn:FTOptix:UI:Net'
    Module: FTOptix.UI.Net
    Version: 12.4
+  5:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 4.0
+  6:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.1
   7:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
@@ -91,24 +91,40 @@ Project:
    Uri: 'urn:FTOptix:Modbus:Net'
    Module: FTOptix.Modbus.Net
    Version: 1.0
-  22:
+  23:
    Uri: 'urn:FTOptix:RAEtherNetIP'
    Module: FTOptix.RAEtherNetIP
    Version: 3.0
-  23:
+  24:
    Uri: 'urn:FTOptix:RAEtherNetIP:Net'
    Module: FTOptix.RAEtherNetIP.Net
    Version: 2.1
+  25:
+   Uri: 'urn:FTOptix:DataLogger'
+   Module: FTOptix.DataLogger
+   Version: 1.0
+  26:
+   Uri: 'urn:FTOptix:DataLogger:Net'
+   Module: FTOptix.DataLogger.Net
+   Version: 1.0
+  27:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  28:
+   Uri: 'urn:FTOptix:Store:Net'
+   Module: FTOptix.Store.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 5631
-  Objects: 449
-  ObjectTypes: 22
-  Variables: 5116
+  TotalNodeCount: 6769
+  Objects: 636
+  ObjectTypes: 44
+  Variables: 6045
   VariableTypes: 17
   DataTypes: 17
   Methods: 10
-  References: 39
+  References: 50
   ReferenceTypes: 0
-  Files: 39
+  Files: 40
  Nodes:
  - File: Nodes/HMI_6040_RMS.yaml

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\Engineering\\246040 RMS Energy 2400 Purifier skid & Dual Vac Pump skid\\Programming\\HMI_6040_RMS\\ProjectFiles\\NetSolution\\HMI_6040_RMS.csproj",
+      "projectUniqueName": "Y:\\Engineering\\Tyler Carver's Documents\\HMI Backup\\HMI_6040_RMS\\ProjectFiles\\NetSolution\\HMI_6040_RMS.csproj",
       "projectName": "HMI_6040_RMS",
-      "projectPath": "Y:\\Engineering\\246040 RMS Energy 2400 Purifier skid & Dual Vac Pump skid\\Programming\\HMI_6040_RMS\\ProjectFiles\\NetSolution\\HMI_6040_RMS.csproj",
+      "projectPath": "Y:\\Engineering\\Tyler Carver's Documents\\HMI Backup\\HMI_6040_RMS\\ProjectFiles\\NetSolution\\HMI_6040_RMS.csproj",
       "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
-      "outputPath": "Y:\\Engineering\\246040 RMS Energy 2400 Purifier skid & Dual Vac Pump skid\\Programming\\HMI_6040_RMS\\ProjectFiles\\NetSolution\\obj\\",
+      "outputPath": "Y:\\Engineering\\Tyler Carver's Documents\\HMI Backup\\HMI_6040_RMS\\ProjectFiles\\NetSolution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tyler\\AppData\\Roaming\\NuGet\\NuGet.Config"
