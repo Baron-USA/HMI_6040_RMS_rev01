@@ -1,0 +1,2298 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: 'AB:1769_ASCII:C:0'
+  Id: g=78d3cfe0364e62caa421a998a4595af4
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_ASCII:C:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "78d3cfe0364e62caa421a998a4595af4",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Ch0BaudRate",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0RxStartMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0RxStartDelimiter",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0RxEndMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0RxEndDelimiter",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0RxPadChar",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0RxByteSwapMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0RxHandshakeMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0RxMessageTimeout",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0TxEndMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0TxEndDelimiter",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0TxByteSwapMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1BaudRate",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1RxStartMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1RxStartDelimiter",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1RxEndMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1RxEndDelimiter",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1RxPadChar",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1RxByteSwapMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1RxHandshakeMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1RxMessageTimeout",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1TxEndMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1TxEndDelimiter",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1TxByteSwapMode",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_ASCII:C:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1769_DO16:C:0'
+  Id: g=c73187addeb5062e44d091973e79034d
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_DO16:C:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c73187addeb5062e44d091973e79034d",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Config",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ProgToFaultEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ProgMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ProgValue",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "FaultMode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "FaultValue",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_DO16:C:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1769_DI16:I:0'
+  Id: g=00257a462673d17d0f359ee53f4149c0
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_DI16:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "00257a462673d17d0f359ee53f4149c0",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Data",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_DI16:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: COUNTER
+  Id: g=2a9a72f51b4a5a58b162b7da162df60c
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "COUNTER",
+    "DataType": {
+     "IdType": 2,
+     "Id": "2a9a72f51b4a5a58b162b7da162df60c",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "PRE",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ACC",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "CU",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CD",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OV",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UN",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"COUNTER"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1769_ASCII_12Bytes_12Bytes:I:0'
+  Id: g=7ba5b78e92610d7e1111ea5c899bd3ff
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_ASCII_12Bytes_12Bytes:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "7ba5b78e92610d7e1111ea5c899bd3ff",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Ch0RxID",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch0TxAck",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch0Status",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0TxDataLost",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0RxDataLost",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0ParityError",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0TxFIFOEmpty",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0RxFIFOEmpty",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0NonDelimitedRecord",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0HandshakeError",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0NewData",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0TxDataSent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0TxDataOverFlow",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0RxDataLength",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0RxData",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [12]
+     },{
+      "Name": "Ch1RxID",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch1TxAck",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch1Status",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1TxDataLost",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1RxDataLost",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1ParityError",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1TxFIFOEmpty",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1RxFIFOEmpty",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1NonDelimitedRecord",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1HandshakeError",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1NewData",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1TxDataSent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1TxDataOverFlow",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1RxDataLength",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1RxData",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [12]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_ASCII_12Bytes_12Bytes:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1769_ASCII_80Bytes_80Bytes:O:0'
+  Id: g=43995b28f8f9741eb596790163fca4ab
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_ASCII_80Bytes_80Bytes:O:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "43995b28f8f9741eb596790163fca4ab",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Ch0TxID",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch0RxID",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch0TxDataLength",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0TxData",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [80]
+     },{
+      "Name": "Ch1TxID",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch1RxID",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch1TxDataLength",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1TxData",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [80]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_ASCII_80Bytes_80Bytes:O:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1769_DO16:I:0'
+  Id: g=4fb0dc7b81d35fd72fa776c7ffab15d9
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_DO16:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "4fb0dc7b81d35fd72fa776c7ffab15d9",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ReadBack",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_DO16:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1769_DO16:O:0'
+  Id: g=416a03a91d48c6e5cd0a3e1fb42d9ed8
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_DO16:O:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "416a03a91d48c6e5cd0a3e1fb42d9ed8",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Data",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_DO16:O:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1769_IF8:C:0'
+  Id: g=32cf12fe2b982846302c648d0fcc854d
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_IF8:C:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "32cf12fe2b982846302c648d0fcc854d",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "RTSInterval",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "RTSEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0Filter",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch0AlarmInterruptEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0AlarmLatchEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0AlarmEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0Range",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch0DataFormat",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch0HAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0LAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0AlarmDeadband",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1Filter",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch1AlarmInterruptEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1AlarmLatchEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1AlarmEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1Range",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch1DataFormat",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch1HAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1LAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1AlarmDeadband",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch2Filter",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch2AlarmInterruptEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2AlarmLatchEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2AlarmEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2Range",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch2DataFormat",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch2HAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch2LAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch2AlarmDeadband",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Filter",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch3AlarmInterruptEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3AlarmLatchEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3AlarmEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3Range",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch3DataFormat",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch3HAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3LAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3AlarmDeadband",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch4Filter",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch4AlarmInterruptEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4AlarmLatchEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4AlarmEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4Range",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch4DataFormat",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch4HAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch4LAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch4AlarmDeadband",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch5Filter",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch5AlarmInterruptEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5AlarmLatchEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5AlarmEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5Range",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch5DataFormat",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch5HAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch5LAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch5AlarmDeadband",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch6Filter",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch6AlarmInterruptEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6AlarmLatchEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6AlarmEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Range",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch6DataFormat",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch6HAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch6LAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch6AlarmDeadband",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch7Filter",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7AlarmInterruptEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7AlarmLatchEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7AlarmEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7Range",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7DataFormat",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7HAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch7LAlarmLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch7AlarmDeadband",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_IF8:C:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: DI_Alarm_Hi
+  Id: g=494bdab586ea8440b4bdec947e93a6a6
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "DI_Alarm_Hi",
+    "DataType": {
+     "IdType": 2,
+     "Id": "494bdab586ea8440b4bdec947e93a6a6",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"DI_Alarm_Hi"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1769_IF8:I:0'
+  Id: g=77f53337ef899430606faa7e692cd8dd
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_IF8:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "77f53337ef899430606faa7e692cd8dd",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Ch0Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch2Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch4Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch5Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch6Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch7Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "RealTimeSample",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "CombinedStatus",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch0Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0_1Status",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch0OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0HAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0LAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1HAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1LAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2_3Status",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch2OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2HAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2LAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3HAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3LAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4_5Status",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch4OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4HAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4LAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5HAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5LAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6_7Status",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch6OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6HAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6LAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7HAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7LAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_IF8:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: DI_Alarm_Lo
+  Id: g=458b5188e6327072ac4d85cccb814c40
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "DI_Alarm_Lo",
+    "DataType": {
+     "IdType": 2,
+     "Id": "458b5188e6327072ac4d85cccb814c40",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"DI_Alarm_Lo"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1769_IF8:O:0'
+  Id: g=662df90c3d4599d92f5d80ed198787c6
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_IF8:O:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "662df90c3d4599d92f5d80ed198787c6",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "AlarmUnlatch",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0HAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0LAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1HAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1LAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2HAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2LAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3HAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3LAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4HAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4LAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5HAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5LAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6HAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6LAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7HAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7LAlarmUnlatch",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_IF8:O:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1769_IT6:C:0'
+  Id: g=7341753f7df6bcece917d332fc73b749
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_IT6:C:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "7341753f7df6bcece917d332fc73b749",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Ch0Config",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0Filter_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0Filter_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0Filter_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0OpenWire_5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0OpenWire_6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0TempMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0SensorType_8",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0SensorType_9",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0SensorType_10",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0SensorType_11",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0DataFormat_12",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0DataFormat_13",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0DataFormat_14",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1Config",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1Filter_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1Filter_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1Filter_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1OpenWire_5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1OpenWire_6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1TempMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1SensorType_8",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1SensorType_9",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1SensorType_10",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1SensorType_11",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1DataFormat_12",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1DataFormat_13",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1DataFormat_14",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2Config",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch2Filter_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2Filter_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2Filter_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2OpenWire_5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2OpenWire_6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2TempMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2SensorType_8",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2SensorType_9",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2SensorType_10",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2SensorType_11",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2DataFormat_12",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2DataFormat_13",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2DataFormat_14",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3Config",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Filter_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3Filter_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3Filter_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3OpenWire_5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3OpenWire_6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3TempMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3SensorType_8",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3SensorType_9",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3SensorType_10",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3SensorType_11",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3DataFormat_12",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3DataFormat_13",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3DataFormat_14",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4Config",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch4Filter_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4Filter_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4Filter_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4OpenWire_5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4OpenWire_6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4TempMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4SensorType_8",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4SensorType_9",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4SensorType_10",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4SensorType_11",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4DataFormat_12",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4DataFormat_13",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4DataFormat_14",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5Config",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch5Filter_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5Filter_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5Filter_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5OpenWire_5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5OpenWire_6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5TempMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5SensorType_8",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5SensorType_9",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5SensorType_10",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5SensorType_11",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5DataFormat_12",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5DataFormat_13",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5DataFormat_14",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5En",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ModuleConfig",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "DisableCyclicCal",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_IT6:C:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1769_IT6:I:0'
+  Id: g=c7dc7ffdfb0c016dc2886a9d64afb68a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1769_IT6:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c7dc7ffdfb0c016dc2886a9d64afb68a",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Ch0Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch1Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch2Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch4Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch5Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch0Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CJ0Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CJ1Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OpenWire",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch0OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CJ0OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CJ1OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RangeFlag",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "CJ1OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CJ1UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CJ0OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CJ0UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0OverRange",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0UnderRange",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1769_IT6:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: SCP
+  Id: g=07ef718d9824bd7e2aa01debd6d128ee
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "SCP",
+    "DataType": {
+     "IdType": 2,
+     "Id": "07ef718d9824bd7e2aa01debd6d128ee",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Input",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Input_Min",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Input_Max",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Scaled_Min",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Scaled_Max",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Output",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"SCP"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: TIMER
+  Id: g=49caabd35355443420385a365ef7b0bc
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TIMER",
+    "DataType": {
+     "IdType": 2,
+     "Id": "49caabd35355443420385a365ef7b0bc",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "PRE",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ACC",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TIMER"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
