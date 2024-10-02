@@ -54,7 +54,7 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: "{0} && {1}!={2}"
-                - Name: ns=3;Source0
+                - Name: ns=5;Source0
                   Type: BaseDataVariableType
                   DataType: BaseDataType
                   ReferenceType: HasSource
@@ -63,7 +63,7 @@ Children:
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../../../FTRemoteAccessWidgetDataObject/IncomingConnectionRequest"
-                - Name: ns=3;Source1
+                - Name: ns=5;Source1
                   Type: BaseDataVariableType
                   DataType: BaseDataType
                   ReferenceType: HasSource
@@ -72,7 +72,7 @@ Children:
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../../CurrentPanel@BrowseName"
-                - Name: ns=3;Source2
+                - Name: ns=5;Source2
                   Type: BaseDataVariableType
                   DataType: BaseDataType
                   ReferenceType: HasSource
@@ -86,13 +86,13 @@ Children:
               DataType: LocalizedText
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: {"NamespaceIndex":24,"TextId":"ConnectionPanelTitleAsterisk"}
+              Value: {"NamespaceIndex":22,"TextId":"ConnectionPanelTitleAsterisk"}
             - Name: FalseValue
               Type: BaseDataVariableType
               DataType: LocalizedText
               ReferenceType: HasParameter
               ModellingRule: Optional
-              Value: {"NamespaceIndex":24,"TextId":"ConnectionPanelTitle"}
+              Value: {"NamespaceIndex":22,"TextId":"ConnectionPanelTitle"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -117,7 +117,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":24,"TextId":"AssistancePanelTitle"}
+          Value: {"NamespaceIndex":22,"TextId":"AssistancePanelTitle"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -159,9 +159,9 @@ Children:
       Type: BaseDataVariableType
       DataType: Int32
     - Class: Reference
-      Target: ns=5;i=1181
+      Target: ns=3;i=1181
     - Class: Reference
-      Target: ns=5;i=1183
+      Target: ns=3;i=1183
   - Name: FTRemoteAccessWidgetDataObject
     Type: FTRemoteAccessWidgetDataObject
     Children:

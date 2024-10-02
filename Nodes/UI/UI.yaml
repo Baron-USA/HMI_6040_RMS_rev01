@@ -10,6 +10,15 @@ Children:
     Children:
     - Name: Default
       Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
     - Name: Accent
       Type: ButtonStyle
       Children:
@@ -122,6 +131,79 @@ Children:
     Children:
     - Name: Default
       Type: NavigationPanelStyle
+      Children:
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: InactiveTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: TabSpacing
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: InactiveColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#b3b3b3"
+      - Name: IconUsesTextColor
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: TabPadding
+        Type: BaseDataVariableType
+        DataType: Size
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#b3b3b3"
+    - Name: NavigationPanelStyle1
+      Type: NavigationPanelStyle
+      Children:
+      - Name: InactiveColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#b3b3b3"
+      - Name: InactiveTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: ActivePrimaryColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3b3b3b"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: TabSpacing
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 175.0
+      - Name: TabPadding
+        Type: BaseDataVariableType
+        DataType: Size
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 600
+      - Name: ActiveSecondaryColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
   - Name: ChartStyles
     Type: BaseObjectType
     Children:
@@ -176,11 +258,37 @@ Children:
     Children:
     - Name: Default
       Type: RadioButtonStyle
+      Children:
+      - Name: ActiveColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 25.0
+      - Name: ActiveTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
   - Name: CheckBoxStyles
     Type: BaseObjectType
     Children:
     - Name: Default
       Type: CheckBoxStyle
+      Children:
+      - Name: ActiveTickColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 30.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
   - Name: ScreenColor
     Type: BaseDataVariableType
     DataType: Color
@@ -286,9 +394,24 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/HMI_6040_RMS@BrowseName"
+  - Name: FullScreen
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: AlwaysOnTop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
   - Name: NavigationPanel1
     Type: NavigationPanel
     Children:
+    - Class: Reference
+      Target: ns=3;i=1181
+      Direction: Forward
+    - Class: Reference
+      Target: ns=3;i=1183
+      Direction: Forward
     - Name: Panels
       Type: BaseObjectType
       Children:
@@ -313,7 +436,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Manual Controls"}
+          Value: {"LocaleId":"en-US","Text":"  Manual Controls  "}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -329,7 +452,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Data Logging"}
+          Value: {"LocaleId":"en-US","Text":"  Data Logging  "}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -345,7 +468,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"System Information"}
+          Value: {"LocaleId":"en-US","Text":"  System Information  "}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -367,17 +490,11 @@ Children:
     - Name: CurrentTabIndex
       Type: BaseDataVariableType
       DataType: Int32
-    - Class: Reference
-      Target: ns=5;i=1181
-      Direction: Forward
-    - Class: Reference
-      Target: ns=5;i=1183
-      Direction: Forward
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 1025.0
+      Value: 1024.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -402,14 +519,63 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 1
-  - Name: FullScreen
-    Type: BaseDataVariableType
-    DataType: Boolean
-    ModellingRule: Optional
-    Value: true
-  - Name: AlwaysOnTop
-    Type: BaseDataVariableType
-    DataType: Boolean
-    ModellingRule: Optional
+    - Name: Appearance
+      Type: BaseVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "underlined"
+    - Name: TabHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: TabWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -1.0
+  - Name: PanelLoader2
+    Type: PanelLoader
+    Children:
+    - Name: Panel
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: CurrentPanel
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Class: Reference
+      Target: ns=3;i=478
+      Direction: Forward
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
 - File: Screens/Screens.yaml
 - File: SettingsWidgets/SettingsWidgets.yaml

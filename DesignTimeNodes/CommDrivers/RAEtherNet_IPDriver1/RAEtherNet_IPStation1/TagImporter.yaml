@@ -15,4 +15,14 @@ Children:
 - Name: FilePath
   Type: BaseDataVariableType
   DataType: AbsoluteResourceUri
-  Value: "file:///Y:/Engineering/246040 RMS Energy 2400 Purifier skid & Dual Vac Pump skid/Programming/RMS_6040.ACD"
+  Value: "ns=2;%PROJECTDIR%/RMS_6040.ACD"
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../Tags/Controller Tags/PB_Booster2"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

@@ -108,7 +108,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":24,"TextId":"FTRemoteAccessRuntimeVersion"}
+            Value: {"NamespaceIndex":22,"TextId":"FTRemoteAccessRuntimeVersion"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -213,7 +213,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":24,"TextId":"RemoteConnections"}
+            Value: {"NamespaceIndex":22,"TextId":"RemoteConnections"}
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -336,7 +336,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":24,"TextId":"FTRemoteAccessConnection"}
+        Value: {"NamespaceIndex":22,"TextId":"FTRemoteAccessConnection"}
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -389,7 +389,7 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: "{0}==2 && {1}"
-              - Name: ns=3;Source0
+              - Name: ns=5;Source0
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
@@ -398,7 +398,7 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/ServerConnection"
-              - Name: ns=3;Source1
+              - Name: ns=5;Source1
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
@@ -411,18 +411,18 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
-            Value: {"NamespaceIndex":24,"TextId":"Connected"}
+            Value: {"NamespaceIndex":22,"TextId":"Connected"}
           - Name: FalseValue
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: {"NamespaceIndex":24,"TextId":"Connecting"}
+            Value: {"NamespaceIndex":22,"TextId":"Connecting"}
       - Name: UncheckedText
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":24,"TextId":"Disconnected"}
+        Value: {"NamespaceIndex":22,"TextId":"Disconnected"}
       - Name: ModifiedValueHandler1
         Type: EventHandler
         Children:
@@ -436,7 +436,7 @@ Children:
           - Name: MethodContainer1
             Type: BaseObjectType
             Children:
-            - Name: ns=3;ObjectPointer
+            - Name: ns=5;ObjectPointer
               Type: NodePointer
               DataType: NodeId
               Children:
@@ -454,7 +454,7 @@ Children:
                   DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
-            - Name: ns=3;Method
+            - Name: ns=5;Method
               Type: BaseDataVariableType
               DataType: String
               Value: "ConnectionSwitchChanged"
@@ -535,7 +535,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":6}
+          Value: {"Id":71,"Namespace":4}
         - Name: NodeClass
           Type: PropertyType
           DataType: NodePointerNodeClass
@@ -630,7 +630,7 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: "{0}==1 || ({0}==2 && ({1}==\"\" || {2}==\"\") && {3}==0)"
-              - Name: ns=3;Source0
+              - Name: ns=5;Source0
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
@@ -639,7 +639,7 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/ServerConnection"
-              - Name: ns=3;Source1
+              - Name: ns=5;Source1
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
@@ -648,7 +648,7 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AnonymousId"
-              - Name: ns=3;Source2
+              - Name: ns=5;Source2
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
@@ -657,7 +657,7 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AnonymousPassword"
-              - Name: ns=3;Source3
+              - Name: ns=5;Source3
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
@@ -693,7 +693,7 @@ Children:
                     ReferenceType: HasParameter
                     ModellingRule: Optional
                     Value: "{0}==2"
-                  - Name: ns=3;Source0
+                  - Name: ns=5;Source0
                     Type: BaseDataVariableType
                     DataType: BaseDataType
                     ReferenceType: HasSource
@@ -724,7 +724,7 @@ Children:
                         ReferenceType: HasParameter
                         ModellingRule: Optional
                         Value: "{0}==0"
-                      - Name: ns=3;Source0
+                      - Name: ns=5;Source0
                         Type: BaseDataVariableType
                         DataType: BaseDataType
                         ReferenceType: HasSource
@@ -760,7 +760,7 @@ Children:
                             ReferenceType: HasParameter
                             ModellingRule: Optional
                             Value: "{0}==1"
-                          - Name: ns=3;Source0
+                          - Name: ns=5;Source0
                             Type: BaseDataVariableType
                             DataType: BaseDataType
                             ReferenceType: HasSource
@@ -794,7 +794,7 @@ Children:
           DataType: NodeId
           Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
       - Class: Reference
-        Target: ns=5;i=478
+        Target: ns=3;i=478
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -952,8 +952,8 @@ Children:
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: {"NamespaceIndex":24,"TextId":"AllowUserToConnect"}
-          - Name: ns=3;Source0
+            Value: {"NamespaceIndex":22,"TextId":"AllowUserToConnect"}
+          - Name: ns=5;Source0
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
@@ -962,7 +962,7 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/Username"
-          - Name: ns=3;Source1
+          - Name: ns=5;Source1
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
@@ -1033,7 +1033,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":24,"TextId":"Yes"}
+          Value: {"NamespaceIndex":22,"TextId":"Yes"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -1065,7 +1065,7 @@ Children:
             - Name: MethodContainer1
               Type: BaseObjectType
               Children:
-              - Name: ns=3;ObjectPointer
+              - Name: ns=5;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
                 Children:
@@ -1083,7 +1083,7 @@ Children:
                     DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
-              - Name: ns=3;Method
+              - Name: ns=5;Method
                 Type: BaseDataVariableType
                 DataType: String
                 Value: "AcceptIncomingConnection"
@@ -1131,7 +1131,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":24,"TextId":"No"}
+          Value: {"NamespaceIndex":22,"TextId":"No"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -1163,7 +1163,7 @@ Children:
             - Name: MethodContainer1
               Type: BaseObjectType
               Children:
-              - Name: ns=3;ObjectPointer
+              - Name: ns=5;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
                 Children:
@@ -1181,7 +1181,7 @@ Children:
                     DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
-              - Name: ns=3;Method
+              - Name: ns=5;Method
                 Type: BaseDataVariableType
                 DataType: String
                 Value: "DenyIncomingConnection"
@@ -1284,7 +1284,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":24,"TextId":"RegisterToDomainString"}
+        Value: {"NamespaceIndex":22,"TextId":"RegisterToDomainString"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1350,7 +1350,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":24,"TextId":"RegisterToDomainDeviceID"}
+            Value: {"NamespaceIndex":22,"TextId":"RegisterToDomainDeviceID"}
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -1388,7 +1388,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"NamespaceIndex":24,"TextId":"RegisterToDomainPassword"}
+            Value: {"NamespaceIndex":22,"TextId":"RegisterToDomainPassword"}
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -1592,7 +1592,7 @@ Children:
               ReferenceType: HasParameter
               ModellingRule: Optional
               Value: "{0}!=0"
-            - Name: ns=3;Source0
+            - Name: ns=5;Source0
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
@@ -1621,7 +1621,7 @@ Children:
         DataType: NodeId
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Class: Reference
-      Target: ns=5;i=478
+      Target: ns=3;i=478
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -1733,7 +1733,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":24,"TextId":"Name"}
+        Value: {"NamespaceIndex":22,"TextId":"Name"}
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -1753,7 +1753,7 @@ Children:
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "{0}==2"
-          - Name: ns=3;Source0
+          - Name: ns=5;Source0
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
@@ -1784,7 +1784,7 @@ Children:
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "!{0}"
-          - Name: ns=3;Source0
+          - Name: ns=5;Source0
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
@@ -1822,7 +1822,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":24,"TextId":"ContactInformation"}
+        Value: {"NamespaceIndex":22,"TextId":"ContactInformation"}
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -1847,7 +1847,7 @@ Children:
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "{0}==2"
-          - Name: ns=3;Source0
+          - Name: ns=5;Source0
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
@@ -1873,7 +1873,7 @@ Children:
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "!{0}"
-          - Name: ns=3;Source0
+          - Name: ns=5;Source0
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
@@ -1912,7 +1912,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":24,"TextId":"Description"}
+        Value: {"NamespaceIndex":22,"TextId":"Description"}
       - Name: ContentType
         Type: BaseVariableType
         DataType: InputTypeEnum
@@ -1941,7 +1941,7 @@ Children:
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "{0}==2"
-          - Name: ns=3;Source0
+          - Name: ns=5;Source0
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
@@ -1967,7 +1967,7 @@ Children:
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "!{0}"
-          - Name: ns=3;Source0
+          - Name: ns=5;Source0
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
@@ -2021,12 +2021,12 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":24,"TextId":"RequestAssistance"}
+          Value: {"NamespaceIndex":22,"TextId":"RequestAssistance"}
         - Name: CheckedText
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":24,"TextId":"AssistanceRequested"}
+          Value: {"NamespaceIndex":22,"TextId":"AssistanceRequested"}
         - Name: RequestAssistanceSwitchLogic
           Type: NetLogic
           Children:
@@ -2054,7 +2054,7 @@ Children:
               ReferenceType: HasParameter
               ModellingRule: Optional
               Value: "({0}!=\"\" && {1}!=\"\" && {2}!=\"\" && {3}==2) || ({3}==1) || ({4}==1)"
-            - Name: ns=3;Source0
+            - Name: ns=5;Source0
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
@@ -2063,7 +2063,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../NameTextBox/Text"
-            - Name: ns=3;Source1
+            - Name: ns=5;Source1
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
@@ -2072,7 +2072,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../ContactInfoTextBox/Text"
-            - Name: ns=3;Source2
+            - Name: ns=5;Source2
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
@@ -2081,7 +2081,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../DescriptionTextBox/Text"
-            - Name: ns=3;Source3
+            - Name: ns=5;Source3
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
@@ -2090,7 +2090,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AssistanceRequestMode"
-            - Name: ns=3;Source4
+            - Name: ns=5;Source4
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
@@ -2112,7 +2112,7 @@ Children:
             - Name: MethodContainer1
               Type: BaseObjectType
               Children:
-              - Name: ns=3;ObjectPointer
+              - Name: ns=5;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
                 Children:
@@ -2130,7 +2130,7 @@ Children:
                     DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
-              - Name: ns=3;Method
+              - Name: ns=5;Method
                 Type: BaseDataVariableType
                 DataType: String
                 Value: "HandleRequestAssistanceSwitch"
@@ -2235,7 +2235,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":24,"TextId":"FillOutFieldsMessage"}
+          Value: {"NamespaceIndex":22,"TextId":"FillOutFieldsMessage"}
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -2264,7 +2264,7 @@ Children:
               ReferenceType: HasParameter
               ModellingRule: Optional
               Value: "{0}==0 && {1}==2"
-            - Name: ns=3;Source0
+            - Name: ns=5;Source0
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
@@ -2273,7 +2273,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../RequestAssistanceSwitch/Enabled"
-            - Name: ns=3;Source1
+            - Name: ns=5;Source1
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
@@ -2361,7 +2361,7 @@ Children:
               ReferenceType: HasParameter
               ModellingRule: Optional
               Value: "{0}==2 && {1}"
-            - Name: ns=3;Source0
+            - Name: ns=5;Source0
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
@@ -2370,7 +2370,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/ServerConnection"
-            - Name: ns=3;Source1
+            - Name: ns=5;Source1
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
@@ -2384,13 +2384,13 @@ Children:
           DataType: LocalizedText
           ReferenceType: HasParameter
           ModellingRule: Optional
-          Value: {"NamespaceIndex":24,"TextId":"RequestsDisabled"}
+          Value: {"NamespaceIndex":22,"TextId":"RequestsDisabled"}
         - Name: FalseValue
           Type: BaseDataVariableType
           DataType: LocalizedText
           ReferenceType: HasParameter
           ModellingRule: Optional
-          Value: {"NamespaceIndex":24,"TextId":"RequestsUnavailable"}
+          Value: {"NamespaceIndex":22,"TextId":"RequestsUnavailable"}
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment

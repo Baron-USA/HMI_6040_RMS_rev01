@@ -36,7 +36,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":24,"TextId":"LAN"}
+          Value: {"NamespaceIndex":22,"TextId":"LAN"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -52,7 +52,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":24,"TextId":"WAN"}
+          Value: {"NamespaceIndex":22,"TextId":"WAN"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -99,9 +99,9 @@ Children:
       Type: BaseDataVariableType
       DataType: Int32
     - Class: Reference
-      Target: ns=5;i=1181
+      Target: ns=3;i=1181
     - Class: Reference
-      Target: ns=5;i=1183
+      Target: ns=3;i=1183
   - Name: BottomBar
     Type: Panel
     Children:
@@ -231,7 +231,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":24,"TextId":"Reboot"}
+        Value: {"NamespaceIndex":22,"TextId":"Reboot"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -260,7 +260,7 @@ Children:
           - Name: MethodContainer1
             Type: BaseObjectType
             Children:
-            - Name: ns=3;ObjectPointer
+            - Name: ns=5;ObjectPointer
               Type: NodePointer
               DataType: NodeId
               Children:
@@ -278,7 +278,7 @@ Children:
                   DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
-            - Name: ns=3;Method
+            - Name: ns=5;Method
               Type: BaseDataVariableType
               DataType: String
               Value: "Reboot"
@@ -330,7 +330,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":24,"TextId":"Apply"}
+        Value: {"NamespaceIndex":22,"TextId":"Apply"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -359,7 +359,7 @@ Children:
           - Name: MethodContainer1
             Type: BaseObjectType
             Children:
-            - Name: ns=3;ObjectPointer
+            - Name: ns=5;ObjectPointer
               Type: NodePointer
               DataType: NodeId
               Children:
@@ -377,7 +377,7 @@ Children:
                   DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
-            - Name: ns=3;Method
+            - Name: ns=5;Method
               Type: BaseDataVariableType
               DataType: String
               Value: "ApplyNetworkConfiguration"
@@ -424,7 +424,7 @@ Children:
       - Name: Path
         Type: BaseDataVariableType
         DataType: ResourceUri
-        Value: "ns=24;%PROJECTDIR%/WarningIcon.svg"
+        Value: "ns=22;%PROJECTDIR%/WarningIcon.svg"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -455,7 +455,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":24,"TextId":"RebootToCommitChanges"}
+        Value: {"NamespaceIndex":22,"TextId":"RebootToCommitChanges"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
