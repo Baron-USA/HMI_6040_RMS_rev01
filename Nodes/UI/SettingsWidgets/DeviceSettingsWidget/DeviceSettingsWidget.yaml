@@ -36,7 +36,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":22,"TextId":"Configuration"}
+          Value: {"NamespaceIndex":24,"TextId":"Configuration"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -45,7 +45,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":4}
+            Value: {"Id":71,"Namespace":6}
         - Name: AliasNode
           Type: BaseDataVariableType
           DataType: NodeId
@@ -61,7 +61,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":22,"TextId":"ProductInformation"}
+          Value: {"NamespaceIndex":24,"TextId":"ProductInformation"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -70,7 +70,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":4}
+            Value: {"Id":71,"Namespace":6}
         - Name: AliasNode
           Type: BaseDataVariableType
           DataType: NodeId
@@ -86,7 +86,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":22,"TextId":"Diagnostics"}
+          Value: {"NamespaceIndex":24,"TextId":"Diagnostics"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -95,7 +95,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":4}
+            Value: {"Id":71,"Namespace":6}
         - Name: AliasNode
           Type: BaseDataVariableType
           DataType: NodeId
@@ -113,7 +113,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":6,"Namespace":4}
+        Value: {"Id":6,"Namespace":6}
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -146,9 +146,9 @@ Children:
       Type: BaseDataVariableType
       DataType: Int32
     - Class: Reference
-      Target: ns=3;i=1181
+      Target: ns=5;i=1181
     - Class: Reference
-      Target: ns=3;i=1183
+      Target: ns=5;i=1183
   - Name: SystemNode
     Type: NodePointer
     DataType: NodeId

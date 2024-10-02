@@ -3499,22 +3499,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "AOV19"
-- Name: AOV32
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "AOV32"
-- Name: AOV33
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "AOV33"
 - Name: AOV34
   Type: RAEtherNetIPTag
   DataType: Boolean
@@ -3567,22 +3551,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "AOV34_Pulse_unlatch.DN"
-- Name: AOV35
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "AOV35"
-- Name: AOV36
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "AOV36"
 - Name: AOV68
   Type: RAEtherNetIPTag
   DataType: Boolean
@@ -3869,7 +3837,7 @@ Children:
     Value: "Auto_Stop_In_Progress"
 - Name: B2
   Type: RAEtherNetIPTag
-  DataType: Int32
+  DataType: Boolean
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -4473,22 +4441,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Chamber_Vac_Torr"
-- Name: CR04251
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "CR04251"
-- Name: CR04252
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "CR04252"
 - Name: Data_30Min_Tmer
   Type: TIMER
   DataType: TIMER
@@ -4931,7 +4883,7 @@ Children:
       Value: "Elapsed_Leak_Test_PullDown_Minutes.UN"
 - Name: F1
   Type: RAEtherNetIPTag
-  DataType: Int32
+  DataType: Boolean
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -5598,7 +5550,6 @@ Children:
     DataType: String
     Value: "Inlet_Heaters_Step_Delay"
 - Name: Inlet_Heater_Bank1_Off
-  Id: g=3bf950b9513264bbca7f4f8bcc3db041
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -6306,14 +6257,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "LS3"
-- Name: LS4
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "LS4"
 - Name: M1
   Type: RAEtherNetIPTag
   DataType: Boolean
@@ -6322,30 +6265,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "M1"
-- Name: M1_AUX
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "M1_AUX"
-- Name: M2
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "M2"
-- Name: M2_AUX
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "M2_AUX"
 - Name: M3
   Type: RAEtherNetIPTag
   DataType: Boolean
@@ -6378,14 +6297,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "M6"
-- Name: M7
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "M7"
 - Name: MM_Minute_Counter
   Type: COUNTER
   DataType: COUNTER
@@ -6660,7 +6571,7 @@ Children:
     Value: "OldRx1"
 - Name: OL_M1
   Type: RAEtherNetIPTag
-  DataType: Int32
+  DataType: Boolean
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -7498,14 +7409,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "PB_Booster"
-- Name: PB_Booster2
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "PB_Booster2"
 - Name: PB_Buzzer_Silence
   Type: RAEtherNetIPTag
   DataType: Boolean
@@ -7587,7 +7490,6 @@ Children:
     DataType: String
     Value: "PB_IH_Bank6_Off"
 - Name: PB_Inlet_Heat
-  Id: g=3d8590877152816c29bfc56740077a7b
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -7684,7 +7586,6 @@ Children:
     DataType: String
     Value: "PB_VacStopLeakTest"
 - Name: PB_Vacuum_Pump_1
-  Id: g=70c31a209e501bfce46b45ae937cf0a1
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -7702,7 +7603,7 @@ Children:
     Value: "PB_Vacuum_Pump_2"
 - Name: PE1
   Type: RAEtherNetIPTag
-  DataType: Int32
+  DataType: Boolean
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -7886,7 +7787,7 @@ Children:
       Value: "Purge_Air_TMR_2.DN"
 - Name: Purge_SOL_1
   Type: RAEtherNetIPTag
-  DataType: Int32
+  DataType: Boolean
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -8314,7 +8215,7 @@ Children:
     Value: "SOL1"
 - Name: Sol_22
   Type: RAEtherNetIPTag
-  DataType: Int32
+  DataType: Boolean
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -8543,7 +8444,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "TC1F"
+    Value: "TC2F"
 - Name: TC2
   Type: RAEtherNetIPTag
   DataType: Int16
@@ -8594,7 +8495,7 @@ Children:
     Value: "TC4F"
 - Name: TC5
   Type: RAEtherNetIPTag
-  DataType: Int32
+  DataType: Int16
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
