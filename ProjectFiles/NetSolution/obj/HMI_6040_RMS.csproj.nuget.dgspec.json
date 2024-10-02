@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "Y:\\Engineering\\Tyler Carver's Documents\\HMI Backup\\HMI_6040_RMS\\ProjectFiles\\NetSolution\\HMI_6040_RMS.csproj": {}
+  },
+  "projects": {
+    "Y:\\Engineering\\Tyler Carver's Documents\\HMI Backup\\HMI_6040_RMS\\ProjectFiles\\NetSolution\\HMI_6040_RMS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\Engineering\\Tyler Carver's Documents\\HMI Backup\\HMI_6040_RMS\\ProjectFiles\\NetSolution\\HMI_6040_RMS.csproj",
+        "projectName": "HMI_6040_RMS",
+        "projectPath": "Y:\\Engineering\\Tyler Carver's Documents\\HMI Backup\\HMI_6040_RMS\\ProjectFiles\\NetSolution\\HMI_6040_RMS.csproj",
+        "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
+        "outputPath": "Y:\\Engineering\\Tyler Carver's Documents\\HMI Backup\\HMI_6040_RMS\\ProjectFiles\\NetSolution\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tyler\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\Rockwell Automation\\FactoryTalk Optix\\Studio 1.4.1.7\\Tools\\DotNetSdk\\sdk\\6.0.419\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
