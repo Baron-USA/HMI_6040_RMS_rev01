@@ -1,0 +1,11 @@
+Name: 'Program:MainProgram'
+Type: FolderType
+Children:
+- Name: PB_Booster2
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.PB_Booster2"
